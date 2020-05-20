@@ -1,0 +1,50 @@
+<html>
+   
+    <head>
+    
+        <title>Webpage with style</title>
+    
+<!--Internal CSS. usually inside the 'head'-->
+<!--uses STYLE tags-->
+<!--uses TYPE attribute-->
+        
+<!--notice the "p:hover" is psuedo styling-->
+<!--the ":" is the trigger, so will underline when hover over parargraph-->        
+        <style type="text/css">
+        
+            p {
+                color: red;
+                font-size: 200%;
+            } 
+            
+            h1 {
+                color: blue;
+                font-style: oblique;
+            }
+            
+            p:hover {
+                
+                text-decoration: underline;
+            }
+            
+            .change:hover {
+                
+                text-decoration: line-through;
+                color: red;
+            }
+        
+        </style>
+        
+        
+    </head>
+ 
+    
+    <body>
+    
+        <p>This is a sentence for CSS manipulation.</p>
+    
+        <h1>This is a header for <span class="change">manipulation.</span></h1>
+    
+    </body>
+
+</html>
