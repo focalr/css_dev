@@ -1,0 +1,78 @@
+<html>
+   
+    <head>
+    
+        <title>Webpage with style</title>
+    
+<!--Internal CSS. usually inside the 'head'-->
+<!--uses STYLE tags-->
+<!--uses TYPE attribute-->
+     
+        <style type="text/css">
+            
+            .red {    
+                color: red;
+            }
+            
+            .large{
+                font-size: 200%;
+            }
+            
+            .oblique{
+                font-style: oblique;
+            }
+            
+            #green{
+                color: green;
+            }
+            
+            .underline{
+                text-decoration: underline;
+            }
+            
+            .bold{
+                font-weight: bold;
+            }
+            
+            .highlighted{
+                background-color: yellow;
+            }
+            
+            #first_section{
+                color: purple;
+                letter-spacing: 4px;
+                position: relative;
+                left: 200px;
+            }
+        
+        </style>        
+        
+    </head>
+ 
+<!--DIV tags for separating groups of elements for styling, etc..-->  
+    
+    <body>
+    
+        <div id="first_section">
+            
+            <p>This is a sentence for CSS manipulation.</p>
+        
+            <p>This is a sentence for CSS manipulation.</p>
+            
+        </div>
+        
+        
+        
+        <h1 class="red oblique">This is a header for manipulation.</h1>
+        
+        <h3 id="green">Now we are working with id's.</h3>
+        
+<!--SPAN tag for small sections of code styling within tags-->
+<!--class attributes inside of the SPAN tag for style designation-->
+        
+        <p class="special">This is a paragraph with a section that is special.  IE, <span class="underline red">this part is underlined.</span>  This part has a <span class="bold">bold sentence to increase visibility.</span>
+            This section is <span class="highlighted">highlighted because it is important.</span></p>
+    
+    </body>
+
+</html>
