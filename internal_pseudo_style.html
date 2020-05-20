@@ -30,9 +30,21 @@
             .change:hover {
                 
                 text-decoration: line-through;
-                color: red;
+                color: orange;
+
+            }
+            
+           .rot {
+                display: inline-block;
+                transition: all 2s ease;
             }
         
+            .rot:hover {
+                
+                transform-origin: center;
+                transform: rotate(360deg);
+            }
+            
         </style>
         
         
@@ -44,7 +56,11 @@
         <p>This is a sentence for CSS manipulation.</p>
     
         <h1>This is a header for <span class="change">manipulation.</span></h1>
-    
+        
+        <div class="rot">
+            <h3 class="rot">Word man!</h3>
+        </div>
+            
     </body>
 
 </html>
